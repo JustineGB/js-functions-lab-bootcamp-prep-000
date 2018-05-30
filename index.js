@@ -3,21 +3,16 @@ function happyHolidays () {
   return 'Happy holidays!';
 }
 
-var name = "you"
-function happyHolidaysTo (name) {
+function happyHolidaysTo (you) {
   return 'Happy holidays, ${name}!';
 }
-happyHolidaysTo ("you")
 
-var holiday = "Indenpendence Day"
-function happyHolidayTo (holiday, name){
+function happyHolidayTo (Indenpendence Day, you){
   return 'Happy ${holiday}, ${name}!';
 }
-happyHolidayTo ("Independence Day", "you")
 
-var days = 20
+
 var holiday = "Mother\'s Day"
-function holidayCountdown (days, holiday){
+function holidayCountdown (20, Mother\'s Day){
   return 'It\'s is ${days} days until ${holiday}!';
 }
-holidayCountdown (20, "Mother\'s Day")
