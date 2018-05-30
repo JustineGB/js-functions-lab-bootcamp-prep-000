@@ -1,4 +1,4 @@
-name = 'Justine', holiday = 'Christmas', days = 300;
+var index = require("../index-test.js")
 
 function happyHolidays () {
   return 'Happy holidays!';
