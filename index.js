@@ -18,3 +18,8 @@ var holiday = "Mother\'s Day"
 function holidayCountdown (days, holiday){
   return 'It\'s is ${days} days until ${holiday}!';
 }
+
+happyHolidays ()
+happyHolidaysTo (name)
+happyHolidayTo (holiday, name)
+holidayCountdown (days, holiday)
