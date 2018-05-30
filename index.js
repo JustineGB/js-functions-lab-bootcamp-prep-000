@@ -1,12 +1,13 @@
+var name = "you"
+
 function happyHolidays () {
   return 'Happy holidays!'
 }
 
 function happyHolidaysTo (name) {
-  return 'Happy holidays, ${name}!';
-}
-
-happyHolidaysTo ("you");
+  if name = "you"
+  {return 'Happy holidays, ${name}!';
+}}
 
 function happyHolidayTo (holiday, name){
   return 'Happy ${holiday}, ${name}!'
