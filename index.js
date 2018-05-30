@@ -1,4 +1,4 @@
-var name = "you"
+name = "you"
 
 function happyHolidays () {
   return 'Happy holidays!';
