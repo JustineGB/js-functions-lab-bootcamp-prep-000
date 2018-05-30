@@ -3,16 +3,15 @@ function happyHolidays () {
   return 'Happy holidays!';
 }
 
-function happyHolidaysTo ("you") {
+function happyHolidaysTo (name) {
   return 'Happy holidays, ${name}!';
 }
 
-function happyHolidayTo ("Indenpendence Day", "you"){
+function happyHolidayTo (holiday, name){
   return 'Happy ${holiday}, ${name}!';
 }
 
 
-var holiday = "Mother\'s Day"
-function holidayCountdown ("20", "Mother's Day"){
+function holidayCountdown (das, holiday){
   return 'It\'s is ${days} days until ${holiday}!';
 }
